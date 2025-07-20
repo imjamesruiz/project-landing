@@ -23,7 +23,7 @@ body {
     align-items: flex-start;
     width: 75%;
     /* background-color: pink; */
-    height: 130px;
+    height: 120px;
     box-sizing: border-box;
     padding: 0 16px;
 }
@@ -32,7 +32,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 30%;
+    max-width: 40%;
     flex: 1;
     /* background-color: pink; */
 }
@@ -112,9 +112,10 @@ img {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    background: pink;
+    background: #fff;
     height: 600px;
     width: 100%;
+    padding-top: 16px;
 }
 
 .body-top {
@@ -200,3 +201,61 @@ img {
     
 }
 
+.footer {
+    display: flex;
+    height: 300px;
+    width: 100%;
+    flex-direction: column;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: center;
+    background: #fff;
+    height: 70%;
+    align-items: center;
+}
+
+.call-action-box {
+    display: flex;
+    background: #3882F6;
+    width: 60%;
+    justify-content: space-between;
+    height: 60%;
+    box-sizing: border-box;
+    padding: 16px 32px;
+    margin: 0;
+    border-radius: 10px;
+    flex: initial;
+    min-width: 200px; 
+    max-width: 100%; 
+    overflow-x: auto; /* adds scroll bar for overflowed content*/
+}
+
+
+
+.box-right {
+    display: flex;
+    align-items: center;
+}
+
+#my-button {
+    width: 110px;
+    height: 55px;
+    border-radius: 15px;
+    background-color: #3882F6;
+    border: 2px solid #fff;
+    color: white;
+    font-size: 14px;
+}
+
+#my-button:hover {
+    transform: scale(1.05);
+}
+
+.footer-bottom {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
